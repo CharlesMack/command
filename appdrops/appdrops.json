@@ -304,14 +304,5 @@
     "description": "Extended split-screen media playback with enhanced protocol flow visualization",
     "version": "1.1.0",
     "category": "Media"
-  },
-  {
-    "id": "protocol-visualizer",
-    "name": "Protocol Visualizer",
-    "emoji": "🎥",
-    "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/protocol-visualizer/index.html",
-    "description": "Interactive 3D visualization of the P.O.P.S. protocol with parallax layers",
-    "version": "3.0.0",
-    "category": "Tools"
   }
 ]
