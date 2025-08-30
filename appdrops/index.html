@@ -68,6 +68,10 @@
       color: #fff;
       font-size: 16px;
       font-weight: 600;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
     }
 
     .appdrop-item:hover {
@@ -75,6 +79,22 @@
       border-color: var(--accent);
       transform: translateY(-4px);
       box-shadow: 0 8px 20px var(--accent-glow);
+    }
+
+    .appdrop-item::before {
+      content: attr(data-emoji);
+      font-size: 20px;
+    }
+
+    .error-message {
+      color: #ff073a;
+      font-size: 14px;
+      text-align: center;
+      margin-top: 20px;
+      padding: 12px;
+      background: rgba(255, 0, 0, 0.2);
+      border-radius: 8px;
+      display: none;
     }
 
     footer {
@@ -88,44 +108,82 @@
 <body>
   <div class="container">
     <h1>P.O.P.S. AppDrop Catalog</h1>
-    <div class="appdrop-list">
-      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/atlas/index.html" class="appdrop-item">Atlas</a>
-      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/aurora/index.html" class="appdrop-item">Aurora</a>
-      <a href="https://charlesmack.github.io/bryce/index.html" class="appdrop-item">Bryce Holograms</a>
-      <a href="https://charlesmack.github.io/camera-shop/index.html" class="appdrop-item">Camera Shop</a>
-      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/charles5-m/index.html" class="appdrop-item">Charles5 M</a>
-      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/charles5-p/index.html" class="appdrop-item">Charles5 P</a>
-      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/charles5-s/index.html" class="appdrop-item">Charles5 S</a>
-      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/charles5-sf/index.html" class="appdrop-item">Charles5 SF</a>
-      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/charles5-w/index.html" class="appdrop-item">Charles5 W</a>
-      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/dev-editor/index.html" class="appdrop-item">Dev Editor</a>
-      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/dj-drop/index.html" class="appdrop-item">DJ Drop</a>
-      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/encyclopedia/index.html" class="appdrop-item">Encyclopedia</a>
-      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/first-aid-quickref/index.html" class="appdrop-item">First Aid QuickRef</a>
-      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/firstaid/index.html" class="appdrop-item">First Aid</a>
-      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/fiveseconds-cine/index.html" class="appdrop-item">FiveSeconds Cine</a>
-      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/fiveseconds-lite/index.html" class="appdrop-item">FiveSeconds Lite</a>
-      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/hearsay-cinema/index.html" class="appdrop-item">Hearsay Cinema</a>
-      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/hearsay/index.html" class="appdrop-item">Hearsay</a>
-      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/magifico-room/index.html" class="appdrop-item">Magifico Room</a>
-      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/magifico-stage/index.html" class="appdrop-item">Magifico Stage</a>
-      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/mpc-drop/index.html" class="appdrop-item">MPC Drop</a>
-      <a href="https://charlesmack.github.io/OnePagerMiniOS/index.html" class="appdrop-item">OnePagerMiniOS</a>
-      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/planner-gemini/index.html" class="appdrop-item">Planner Gemini</a>
-      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/planner-lite/index.html" class="appdrop-item">Planner Lite</a>
-      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/pops/index.html" class="appdrop-item">POPS</a>
-      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/retreat/index.html" class="appdrop-item">Retreat</a>
-      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/scratchpad/index.html" class="appdrop-item">Scratchpad</a>
-      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/strobe-hud/index.html" class="appdrop-item">Strobe HUD</a>
-      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/strobe/index.html" class="appdrop-item">Strobe</a>
-      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/survivors-compass/index.html" class="appdrop-item">Survivors Compass</a>
-      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/tap-talk/index.html" class="appdrop-item">Tap Talk</a>
-      <a href="https://charlesmack.github.io/3d-media-player-world/index.html" class="appdrop-item">Media World</a>
-      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/viewria/index.html" class="appdrop-item">Viewria</a>
+    <div class="appdrop-list" id="appdropList">
+      <!-- Static fallback AppDrops with updated emojis and metadata -->
+      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/atlas/index.html" class="appdrop-item" data-emoji="🌍" data-description="Global mapping tool" data-version="1.0.0" data-category="Tools">Atlas</a>
+      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/aurora/index.html" class="appdrop-item" data-emoji="🌌" data-description="Visual effects suite" data-version="1.2.1" data-category="Media">Aurora</a>
+      <a href="https://charlesmack.github.io/bryce/index.html" class="appdrop-item" data-emoji="😇" data-description="Holographic projections" data-version="2.0.0" data-category="Media">Bryce Holograms</a>
+      <a href="https://charlesmack.github.io/camera-shop/index.html" class="appdrop-item" data-emoji="🎥🏪" data-description="Camera equipment marketplace" data-version="1.1.0" data-category="Tools">Camera Shop</a>
+      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/charles5-m/index.html" class="appdrop-item" data-emoji="🎬" data-description="Media production tool" data-version="1.0.0" data-category="Media">Charles5 M</a>
+      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/charles5-p/index.html" class="appdrop-item" data-emoji="📽️" data-description="Production planning" data-version="1.0.0" data-category="Productivity">Charles5 P</a>
+      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/charles5-s/index.html" class="appdrop-item" data-emoji="🎥" data-description="Scripting assistant" data-version="1.0.0" data-category="Productivity">Charles5 S</a>
+      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/charles5-sf/index.html" class="appdrop-item" data-emoji="🎞️" data-description="Special effects editor" data-version="1.0.0" data-category="Media">Charles5 SF</a>
+      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/charles5-w/index.html" class="appdrop-item" data-emoji="📺" data-description="Workflow manager" data-version="1.0.0" data-category="Productivity">Charles5 W</a>
+      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/dev-editor/index.html" class="appdrop-item" data-emoji="💻" data-description="Code editing environment" data-version="1.0.0" data-category="Development">Dev Editor</a>
+      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/dj-drop/index.html" class="appdrop-item" data-emoji="🎧" data-description="Music mixing tool" data-version="1.0.0" data-category="Media">DJ Drop</a>
+      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/encyclopedia/index.html" class="appdrop-item" data-emoji="📚" data-description="Knowledge base" data-version="1.0.0" data-category="Reference">Encyclopedia</a>
+      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/first-aid-quickref/index.html" class="appdrop-item" data-emoji="🩺" data-description="Quick first aid guide" data-version="1.0.0" data-category="Health">First Aid QuickRef</a>
+      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/firstaid/index.html" class="appdrop-item" data-emoji="🚑" data-description="Comprehensive first aid" data-version="1.0.0" data-category="Health">First Aid</a>
+      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/fiveseconds-cine/index.html" class="appdrop-item" data-emoji="🎬" data-description="Cinematic video editor" data-version="1.0.0" data-category="Media">FiveSeconds Cine</a>
+      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/fiveseconds-lite/index.html" class="appdrop-item" data-emoji="🎥" data-description="Light video editor" data-version="1.0.0" data-category="Media">FiveSeconds Lite</a>
+      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/hearsay-cinema/index.html" class="appdrop-item" data-emoji="🎭" data-description="Theater streaming" data-version="1.0.0" data-category="Media">Hearsay Cinema</a>
+      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/hearsay/index.html" class="appdrop-item" data-emoji="🗣️" data-description="Voice communication" data-version="1.0.0" data-category="Communication">Hearsay</a>
+      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/magifico-room/index.html" class="appdrop-item" data-emoji="🏠" data-description="Virtual room designer" data-version="1.0.0" data-category="Tools">Magifico Room</a>
+      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/magifico-stage/index.html" class="appdrop-item" data-emoji="🎤" data-description="Stage performance tool" data-version="1.0.0" data-category="Media">Magifico Stage</a>
+      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/mpc-drop/index.html" class="appdrop-item" data-emoji="🎮" data-description="Music production controller" data-version="1.0.0" data-category="Media">MPC Drop</a>
+      <a href="https://charlesmack.github.io/OnePagerMiniOS/index.html" class="appdrop-item" data-emoji="💻" data-description="Mini OS interface" data-version="1.0.0" data-category="System">OnePagerMiniOS</a>
+      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/planner-gemini/index.html" class="appdrop-item" data-emoji="📅" data-description="Advanced planner" data-version="1.0.0" data-category="Productivity">Planner Gemini</a>
+      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/planner-lite/index.html" class="appdrop-item" data-emoji="🗓️" data-description="Simple planner" data-version="1.0.0" data-category="Productivity">Planner Lite</a>
+      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/pops/index.html" class="appdrop-item" data-emoji="🌟" data-description="Production hub" data-version="1.0.0" data-category="System">POPS</a>
+      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/retreat/index.html" class="appdrop-item" data-emoji="🏕️" data-description="Event planning tool" data-version="1.0.0" data-category="Productivity">Retreat</a>
+      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/scratchpad/index.html" class="appdrop-item" data-emoji="📝" data-description="Quick note-taking" data-version="1.0.0" data-category="Productivity">Scratchpad</a>
+      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/strobe-hud/index.html" class="appdrop-item" data-emoji="💡" data-description="Lighting control HUD" data-version="1.0.0" data-category="Tools">Strobe HUD</a>
+      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/strobe/index.html" class="appdrop-item" data-emoji="✨" data-description="Strobe light controller" data-version="1.0.0" data-category="Tools">Strobe</a>
+      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/survivors-compass/index.html" class="appdrop-item" data-emoji="🧭" data-description="Navigation aid" data-version="1.0.0" data-category="Tools">Survivors Compass</a>
+      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/tap-talk/index.html" class="appdrop-item" data-emoji="💬" data-description="Instant messaging" data-version="1.0.0" data-category="Communication">Tap Talk</a>
+      <a href="https://charlesmack.github.io/3d-media-player-world/index.html" class="appdrop-item" data-emoji="🗺🕹" data-description="3D media player" data-version="1.0.0" data-category="Media">Media World</a>
+      <a href="https://charlesmack.github.io/OnePagerMiniOS/appdrops/viewria/index.html" class="appdrop-item" data-emoji="👀" data-description="Visual explorer" data-version="1.0.0" data-category="Tools">Viewria</a>
     </div>
+    <div class="error-message" id="errorMessage">Failed to load AppDrops from JSON. Displaying static catalog.</div>
   </div>
   <footer>
     P.O.P.S. Command Center &copy; 2025 | Professional Production Mobile
   </footer>
+  <script>
+    async function loadAppDrops() {
+      const appdropList = document.getElementById('appdropList');
+      const errorMessage = document.getElementById('errorMessage');
+
+      try {
+        const response = await fetch('./appdrops.json');
+        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+        const appDrops = await response.json();
+
+        // Clear static content
+        appdropList.innerHTML = '';
+
+        // Render dynamic AppDrops
+        appDrops.forEach(app => {
+          const link = document.createElement('a');
+          link.href = app.path;
+          link.className = 'appdrop-item';
+          link.textContent = app.name;
+          link.dataset.emoji = app.emoji;
+          link.dataset.description = app.description;
+          link.dataset.version = app.version;
+          link.dataset.category = app.category;
+          link.setAttribute('aria-label', `${app.name}: ${app.description}`);
+          appdropList.appendChild(link);
+        });
+      } catch (error) {
+        console.error('Failed to load appdrops.json:', error);
+        errorMessage.style.display = 'block';
+        // Static fallback remains in DOM
+      }
+    }
+
+    // Load AppDrops on page load
+    document.addEventListener('DOMContentLoaded', loadAppDrops);
+  </script>
 </body>
 </html>
