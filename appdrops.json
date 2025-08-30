@@ -295,5 +295,14 @@
     "description": "Visual explorer",
     "version": "1.0.0",
     "category": "Tools"
+  },
+  {
+    "id": "media-mall",
+    "name": "Media Mall",
+    "emoji": "🖥️",
+    "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/media-mall/index.html",
+    "description": "Split-screen media playback with protocol flow visualization",
+    "version": "1.0.0",
+    "category": "Media"
   }
 ]
