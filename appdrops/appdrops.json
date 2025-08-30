@@ -1,0 +1,317 @@
+[
+  {
+    "id": "atlas",
+    "name": "Atlas",
+    "emoji": "🌍",
+    "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/atlas/index.html",
+    "description": "Global mapping tool",
+    "version": "1.0.0",
+    "category": "Tools"
+  },
+  {
+    "id": "aurora",
+    "name": "Aurora",
+    "emoji": "🌌",
+    "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/aurora/index.html",
+    "description": "Visual effects suite",
+    "version": "1.2.1",
+    "category": "Media"
+  },
+  {
+    "id": "bryce",
+    "name": "Bryce Holograms",
+    "emoji": "😇",
+    "path": "https://charlesmack.github.io/bryce/index.html",
+    "description": "Holographic projections",
+    "version": "2.0.0",
+    "category": "Media"
+  },
+  {
+    "id": "cameras",
+    "name": "Camera Shop",
+    "emoji": "🎥🏪",
+    "path": "https://charlesmack.github.io/camera-shop/index.html",
+    "description": "Camera equipment marketplace",
+    "version": "1.1.0",
+    "category": "Tools"
+  },
+  {
+    "id": "charles5-m",
+    "name": "Charles5 M",
+    "emoji": "🎬",
+    "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/charles5-m/index.html",
+    "description": "Media production tool",
+    "version": "1.0.0",
+    "category": "Media"
+  },
+  {
+    "id": "charles5-p",
+    "name": "Charles5 P",
+    "emoji": "📽️",
+    "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/charles5-p/index.html",
+    "description": "Production planning",
+    "version": "1.0.0",
+    "category": "Productivity"
+  },
+  {
+    "id": "charles5-s",
+    "name": "Charles5 S",
+    "emoji": "🎥",
+    "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/charles5-s/index.html",
+    "description": "Scripting assistant",
+    "version": "1.0.0",
+    "category": "Productivity"
+  },
+  {
+    "id": "charles5-sf",
+    "name": "Charles5 SF",
+    "emoji": "🎞️",
+    "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/charles5-sf/index.html",
+    "description": "Special effects editor",
+    "version": "1.0.0",
+    "category": "Media"
+  },
+  {
+    "id": "charles5-w",
+    "name": "Charles5 W",
+    "emoji": "📺",
+    "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/charles5-w/index.html",
+    "description": "Workflow manager",
+    "version": "1.0.0",
+    "category": "Productivity"
+  },
+  {
+    "id": "dev-editor",
+    "name": "Dev Editor",
+    "emoji": "💻",
+    "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/dev-editor/index.html",
+    "description": "Code editing environment",
+    "version": "1.0.0",
+    "category": "Development"
+  },
+  {
+    "id": "dj-drop",
+    "name": "DJ Drop",
+    "emoji": "🎧",
+    "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/dj-drop/index.html",
+    "description": "Music mixing tool",
+    "version": "1.0.0",
+    "category": "Media"
+  },
+  {
+    "id": "encyclopedia",
+    "name": "Encyclopedia",
+    "emoji": "📚",
+    "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/encyclopedia/index.html",
+    "description": "Knowledge base",
+    "version": "1.0.0",
+    "category": "Reference"
+  },
+  {
+    "id": "first-aid-quickref",
+    "name": "First Aid QuickRef",
+    "emoji": "🩺",
+    "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/first-aid-quickref/index.html",
+    "description": "Quick first aid guide",
+    "version": "1.0.0",
+    "category": "Health"
+  },
+  {
+    "id": "firstaid",
+    "name": "First Aid",
+    "emoji": "🚑",
+    "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/firstaid/index.html",
+    "description": "Comprehensive first aid",
+    "version": "1.0.0",
+    "category": "Health"
+  },
+  {
+    "id": "fiveseconds-cine",
+    "name": "FiveSeconds Cine",
+    "emoji": "🎬",
+    "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/fiveseconds-cine/index.html",
+    "description": "Cinematic video editor",
+    "version": "1.0.0",
+    "category": "Media"
+  },
+  {
+    "id": "fiveseconds-lite",
+    "name": "FiveSeconds Lite",
+    "emoji": "🎥",
+    "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/fiveseconds-lite/index.html",
+    "description": "Light video editor",
+    "version": "1.0.0",
+    "category": "Media"
+  },
+  {
+    "id": "hearsay-cinema",
+    "name": "Hearsay Cinema",
+    "emoji": "🎭",
+    "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/hearsay-cinema/index.html",
+    "description": "Theater streaming",
+    "version": "1.0.0",
+    "category": "Media"
+  },
+  {
+    "id": "hearsay",
+    "name": "Hearsay",
+    "emoji": "🗣️",
+    "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/hearsay/index.html",
+    "description": "Voice communication",
+    "version": "1.0.0",
+    "category": "Communication"
+  },
+  {
+    "id": "magifico-room",
+    "name": "Magifico Room",
+    "emoji": "🏠",
+    "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/magifico-room/index.html",
+    "description": "Virtual room designer",
+    "version": "1.0.0",
+    "category": "Tools"
+  },
+  {
+    "id": "magifico-stage",
+    "name": "Magifico Stage",
+    "emoji": "🎤",
+    "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/magifico-stage/index.html",
+    "description": "Stage performance tool",
+    "version": "1.0.0",
+    "category": "Media"
+  },
+  {
+    "id": "mpc-drop",
+    "name": "MPC Drop",
+    "emoji": "🎮",
+    "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/mpc-drop/index.html",
+    "description": "Music production controller",
+    "version": "1.0.0",
+    "category": "Media"
+  },
+  {
+    "id": "Mini OS",
+    "name": "OnePagerMiniOS",
+    "emoji": "💻",
+    "path": "https://charlesmack.github.io/OnePagerMiniOS/index.html",
+    "description": "Mini OS interface",
+    "version": "1.0.0",
+    "category": "System"
+  },
+  {
+    "id": "planner-gemini",
+    "name": "Planner Gemini",
+    "emoji": "📅",
+    "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/planner-gemini/index.html",
+    "description": "Advanced planner",
+    "version": "1.0.0",
+    "category": "Productivity"
+  },
+  {
+    "id": "planner-lite",
+    "name": "Planner Lite",
+    "emoji": "🗓️",
+    "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/planner-lite/index.html",
+    "description": "Simple planner",
+    "version": "1.0.0",
+    "category": "Productivity"
+  },
+  {
+    "id": "pops",
+    "name": "POPS",
+    "emoji": "🌟",
+    "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/pops/index.html",
+    "description": "Production hub",
+    "version": "1.0.0",
+    "category": "System"
+  },
+  {
+    "id": "retreat",
+    "name": "Retreat",
+    "emoji": "🏕️",
+    "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/retreat/index.html",
+    "description": "Event planning tool",
+    "version": "1.0.0",
+    "category": "Productivity"
+  },
+  {
+    "id": "scratchpad",
+    "name": "Scratchpad",
+    "emoji": "📝",
+    "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/scratchpad/index.html",
+    "description": "Quick note-taking",
+    "version": "1.0.0",
+    "category": "Productivity"
+  },
+  {
+    "id": "strobe-hud",
+    "name": "Strobe HUD",
+    "emoji": "💡",
+    "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/strobe-hud/index.html",
+    "description": "Lighting control HUD",
+    "version": "1.0.0",
+    "category": "Tools"
+  },
+  {
+    "id": "strobe",
+    "name": "Strobe",
+    "emoji": "✨",
+    "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/strobe/index.html",
+    "description": "Strobe light controller",
+    "version": "1.0.0",
+    "category": "Tools"
+  },
+  {
+    "id": "survivors-compass",
+    "name": "Survivors Compass",
+    "emoji": "🧭",
+    "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/survivors-compass/index.html",
+    "description": "Navigation aid",
+    "version": "1.0.0",
+    "category": "Tools"
+  },
+  {
+    "id": "tap-talk",
+    "name": "Tap Talk",
+    "emoji": "💬",
+    "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/tap-talk/index.html",
+    "description": "Instant messaging",
+    "version": "1.0.0",
+    "category": "Communication"
+  },
+  {
+    "id": "media-world",
+    "name": "Media World",
+    "emoji": "🗺🕹",
+    "path": "https://charlesmack.github.io/3d-media-player-world/index.html",
+    "description": "3D media player",
+    "version": "1.0.0",
+    "category": "Media"
+  },
+  {
+    "id": "viewria",
+    "name": "Viewria",
+    "emoji": "👀",
+    "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/viewria/index.html",
+    "description": "Visual explorer",
+    "version": "1.0.0",
+    "category": "Tools"
+  },
+  {
+    "id": "media-mall",
+    "name": "Media Mall",
+    "emoji": "🖥️",
+    "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/media-mall/index.html",
+    "description": "Split-screen media playback with protocol flow visualization",
+    "version": "1.0.0",
+    "category": "Media"
+  },
+  {
+  "id": "performance-monitor",
+  "name": "Performance Monitor",
+  "emoji": "📊",
+  "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/performance-monitor/index.html",
+  "description": "Monitors device load, memory, FPS, and analytics with local storage history",
+  "version": "1.0.0",
+  "category": "Tools"
+}
+]
