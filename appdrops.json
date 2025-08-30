@@ -316,9 +316,9 @@
 },
   {
   "id": "performance-monitor1",
-  "name": "Performance Monitor",
+  "name": "Performance Monitor1",
   "emoji": "🥚",
-  "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/performance-monitor/index.html",
+  "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/performance-monitor1/index.html",
   "description": "Monitors device load, memory, FPS, and analytics with local storage history",
   "version": "1.0.0",
   "category": "Tools"
