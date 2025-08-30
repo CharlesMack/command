@@ -313,8 +313,7 @@
   "description": "Monitors device load, memory, FPS, and analytics with local storage history",
   "version": "1.0.0",
   "category": "Tools"
-},
-  ,
+  },
   {
   "id": "performance-monitor1",
   "name": "Performance Monitor1",
