@@ -17,16 +17,6 @@
     "version": "1.2.1",
     "category": "Media"
   },
-    {
-    "id": "blaze",
-    "name": "Blaze Selfie Emhancement",
-    "emoji": "🤳",
-    "path": "https://charlesmack.github.io/blaze/index.html",
-    "description": "Camera Selfie Light",
-    "version": "1.0.0",
-    "category": "Tool"
-  },
-  
   {
     "id": "bryce",
     "name": "Bryce Holograms",
