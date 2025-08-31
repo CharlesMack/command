@@ -81,6 +81,15 @@
     "category": "Productivity"
   },
   {
+    "id": "command-center",
+    "name": "Command Center",
+    "emoji": "💽",
+    "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/command/index.html",
+    "description": "Appdrop Sync Verification",
+    "version": "1.0.0",
+    "category": "Productivity"
+  },
+  {
     "id": "dev-editor",
     "name": "Dev Editor",
     "emoji": "💻",
