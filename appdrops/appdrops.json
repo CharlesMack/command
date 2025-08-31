@@ -297,6 +297,15 @@
     "category": "Tools"
   },
   {
+    "id": "martel-media-magic",
+    "name": "Martel Media Magic",
+    "emoji": "🪄",
+    "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/martel/index.html",
+    "description": "A player with a stunning sky-and-waves theme",
+    "version": "1.0.0",
+    "category": "Media"
+  },
+  {
     "id": "media-mall-ext",
     "name": "Media Mall ext",
     "emoji": "🖥️",
