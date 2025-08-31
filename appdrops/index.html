@@ -155,7 +155,7 @@
       const errorMessage = document.getElementById('errorMessage');
 
       try {
-        const response = await fetch('./appdrops/appdrops.json');
+        const response = await fetch('https://charlesmack.github.io/command/appdrops/appdrops.json');
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
         const appDrops = await response.json();
 
