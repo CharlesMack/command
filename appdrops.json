@@ -18,6 +18,15 @@
     "category": "Media"
   },
   {
+    "id": "blaze",
+    "name": "Blaze Selfie Emhancement",
+    "emoji": "🤳",
+    "path": "https://charlesmack.github.io/blaze/index.html",
+    "description": "Camera Selfie Light",
+    "version": "1.0.0",
+    "category": "Tool"
+  },
+  {
     "id": "bryce",
     "name": "Bryce Holograms",
     "emoji": "😇",
@@ -77,6 +86,15 @@
     "emoji": "📺",
     "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/charles5-w/index.html",
     "description": "Workflow manager",
+    "version": "1.0.0",
+    "category": "Productivity"
+  },
+  {
+    "id": "command-center",
+    "name": "Command Center",
+    "emoji": "💽",
+    "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/command/index.html",
+    "description": "Appdrop Sync Verification",
     "version": "1.0.0",
     "category": "Productivity"
   },
@@ -297,12 +315,21 @@
     "category": "Tools"
   },
   {
-    "id": "media-mall",
-    "name": "Media Mall",
-    "emoji": "🖥️",
-    "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/media-mall/index.html",
-    "description": "Split-screen media playback with protocol flow visualization",
+    "id": "martel-media-magic",
+    "name": "Martel Media Magic",
+    "emoji": "🪄",
+    "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/martel/index.html",
+    "description": "A player with a stunning sky-and-waves theme",
     "version": "1.0.0",
+    "category": "Media"
+  },
+  {
+    "id": "media-mall-ext",
+    "name": "Media Mall ext",
+    "emoji": "🖥️",
+    "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/media-mall-ext/index.html",
+    "description": "Extended split-screen media playback with enhanced protocol flow visualization",
+    "version": "1.1.0",
     "category": "Media"
   },
   {
@@ -313,14 +340,5 @@
   "description": "Monitors device load, memory, FPS, and analytics with local storage history",
   "version": "1.0.0",
   "category": "Tools"
-  },
-  {
-  "id": "performance-monitor1",
-  "name": "Performance Monitor1",
-  "emoji": "🥚",
-  "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/performance-monitor1/index.html",
-  "description": "Monitors device load, memory, FPS, and analytics with local storage history",
-  "version": "1.1.0",
-  "category": "Tools"
-}
+  }
 ]
