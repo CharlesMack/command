@@ -180,6 +180,15 @@
     "category": "Communication"
   },
   {
+    "id": "boom-level",
+    "name": "Boom Level",
+    "emoji": "💥",
+    "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/level/index.html",
+    "description": "Pro 3-band EQ with 6 presets",
+    "version": "1.0.0",
+    "category": "Tools"
+  },
+  {
     "id": "magifico-room",
     "name": "Magifico Room",
     "emoji": "🏠",
@@ -210,7 +219,7 @@
     "id": "Mini OS",
     "name": "OnePagerMiniOS",
     "emoji": "💻",
-    "path": "https://charlesmack.github.io/OnePagerMiniOS/index.html",
+    "path": "https://charlesmack.github.io/OnePagerMiniOS/mini.html",
     "description": "Mini OS interface",
     "version": "1.0.0",
     "category": "System"
