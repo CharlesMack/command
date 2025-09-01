@@ -270,6 +270,15 @@
     "category": "Productivity"
   },
   {
+    "id": "savior",
+    "name": "Savior",
+    "emoji": "🛟",
+    "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/savior/index.html",
+    "description": "Olympic Relay Music ",
+    "version": "1.0.0",
+    "category": "Media"
+  },
+  {
     "id": "scratchpad",
     "name": "Scratchpad",
     "emoji": "📝",
