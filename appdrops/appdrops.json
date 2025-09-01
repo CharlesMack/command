@@ -90,6 +90,15 @@
     "category": "Productivity"
   },
   {
+    "id": "cook-media",
+    "name": "Cook Media",
+    "emoji": "🧑‍🍳",
+    "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/cook/index.html",
+    "description": "Virtual Microwave Media Player",
+    "version": "1.0.0",
+    "category": "Media"
+  },
+  {
     "id": "command-center",
     "name": "Command Center",
     "emoji": "💽",
