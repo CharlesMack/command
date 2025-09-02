@@ -108,6 +108,15 @@
     "category": "Productivity"
   },
   {
+    "id": "dance",
+    "name": "Corner Store Music",
+    "emoji": "🎉",
+    "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/dance/index.html",
+    "description": "P.O.P.S.Corner Store Music",
+    "version": "1.0.0",
+    "category": "Musiv"
+  },
+  {
     "id": "dev-editor",
     "name": "Dev Editor",
     "emoji": "💻",
