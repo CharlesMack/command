@@ -279,15 +279,6 @@
     "category": "Media"
   },
   {
-    "id": "3D savior",
-    "name": "Savior",
-    "emoji": "🛟",
-    "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/3d-savior/index.html",
-    "description": "3D Olympic Relay Music race ",
-    "version": "1.0.0",
-    "category": "Media"
-  },
-  {
     "id": "scratchpad",
     "name": "Scratchpad",
     "emoji": "📝",
