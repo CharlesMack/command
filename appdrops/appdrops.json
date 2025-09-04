@@ -108,13 +108,13 @@
     "category": "Productivity"
   },
   {
-    "id": "dance",
+    "id": "eance",
     "name": "Corner Store Music",
     "emoji": "🎉",
     "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/dance/index.html",
     "description": "P.O.P.S.Corner Store Music",
     "version": "1.0.0",
-    "category": "Musiv"
+    "category": "Media"
   },
   {
     "id": "dev-editor",
@@ -383,6 +383,15 @@
   "emoji": "📊",
   "path": "https://charlesmack.github.io/OnePagerMiniOS/appdrops/performance-monitor/index.html",
   "description": "Monitors device load, memory, FPS, and analytics with local storage history",
+  "version": "1.0.0",
+  "category": "Tools"
+  },
+  {
+  "id": "pure-gold",
+  "name": "Pure Gold",
+  "emoji": "🛜",
+  "path": "https://charlesmack.github.io/web-browser/",
+  "description": "Web browser engine with a GUI",
   "version": "1.0.0",
   "category": "Tools"
   }
